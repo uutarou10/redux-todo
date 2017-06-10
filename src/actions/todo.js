@@ -1,6 +1,7 @@
-export const add = () => {
+export const add = (text) => {
   return {
-    type: 'ADD'
+    type: 'ADD_TODO',
+    text
   };
 }
 

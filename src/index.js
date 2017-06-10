@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore } from 'redux';
 import { Provider, connect } from 'react-redux';
+import store from './store'
+import App from './components/App'
 
 ReactDOM.render(
-  <App />,
+  <Provider store={store}><App /></ Provider>,
   document.getElementById('root')
 );

@@ -1,4 +1,6 @@
 import React from 'react';
+import TodoForm from './TodoForm/index';
+import TodoList from './TodoList/index';
 
 const Todo = (props) => {
   return (

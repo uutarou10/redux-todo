@@ -1,9 +1,9 @@
 import React from 'react';
-import Todo from './Todo/Todo';
+import Todo from './Todo/index';
 
 const App = (props) => {
   return (
-    <App />
+    <Todo />
   );
 };
 

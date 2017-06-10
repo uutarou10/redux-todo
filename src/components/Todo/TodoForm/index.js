@@ -1,12 +1,14 @@
 import React from 'react';
+import contain from './contain'
 
 const TodoForm = (props) => {
+  const { add } = props;
+
   return (
     <div>
-      <input type={"input"} />
-      <button type={'button'}>Send</button>
-    <div>
+      <p>form</p>
+    </div>
   );
 };
 
-export default TodoForm;
+export default contain(TodoForm);
