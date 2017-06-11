@@ -29,4 +29,4 @@ export default combineReducers([
   todo
 ]);
 
-export const getTodo = (state) => state;
+export const getTodo = (state) => state.todo;
